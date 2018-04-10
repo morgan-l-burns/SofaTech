@@ -1,0 +1,120 @@
+#topNavigationArea {
+	background-color:#9e958c;
+	/* background-image:url(/frontendImages/contactUs/contactUsHeaderNew.jpg); */
+	/*background-image:url(/frontendImages/topBanners/contactUs.jpg); */
+	background-image:url(/frontendImages/topBanners/contactUsLadyWithPhone.jpg);
+	background-repeat:no-repeat;
+}
+
+#footer {
+	background-image:url(/frontendImages/homepage/bottomPageFade.jpg);
+	background-repeat:no-repeat;
+}
+
+#mainContentArea {
+	height: 880px;
+}
+
+#mainContent {
+	/*background-image:url(/frontendImages/homepage/mainContentGradient.jpg);
+	background-repeat: no-repeat;*/
+	background-color:#9e958c;
+	height:800px;
+	
+}
+
+#mainContentInner {
+	height:750px;
+	overflow:hidden;
+}
+
+#content { 
+	float:left;
+	width:100%;
+}
+
+#col1 {
+	color:#433d3a;
+	background-color:#92877f;
+	float:left;
+	overflow: hidden;
+	height:750px;
+}
+
+#col1Inner {
+	margin:10px;
+	width:320px;
+}
+
+#col2 {
+	color:#433d3a;
+	margin-left:25px;
+	background-color:#92877f;
+	float:left;
+	margin-right:0px;
+	width:450px;
+	height:750px;
+	
+}
+
+#col2Inner {
+	margin:10px;
+	width:430px;
+}
+
+h3 {
+	margin:0px;
+}
+
+p {
+	margin:0px;
+	margin-bottom:10px;
+}
+
+a {
+	color:#433d3a;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#433d3a;
+	text-decoration:underline;
+}
+
+
+.standardForm {
+	background-color:#ccc;
+	border-bottom: 2px solid #888;
+	border-right: 2px solid #777;
+	margin:0px;
+	padding:0px;
+}
+
+#feedback {
+	background-color: #4C3A26;
+	border: 2px solid #000;
+	color:#fff;
+	padding:10px;
+	margin-bottom:10px;
+	font-size:14px;
+}
+
+#error {
+	background-color: #833A33;
+	border: 2px solid #000;
+	color:#fff;
+	padding:10px;
+	margin-bottom:10px;
+	font-size:14px;
+}
+
+#message {
+}
+
+#outterContainer {
+	height:1130px;
+}
+
+#arrive{
+	margin:20px 0px 0px 0px;
+}

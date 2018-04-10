@@ -1,0 +1,127 @@
+/* CSS Document */
+
+#scroller {
+	clear:both;
+	width: 450px;
+	height: 370px;
+	overflow: hidden;
+	margin:0 auto;
+}
+
+#content {
+	width: 7500px;
+}
+
+.slide {
+	float: left;
+	width: 450px;
+	height: 370px;
+}
+
+#jobCalendarOuter {
+	margin: 10px;
+	/* border: 1px solid red; */
+}
+
+#calendar {
+	display:block;
+	text-align:center;
+	background-color:#c3d9ff;
+}
+
+#months {
+	color:#000000;
+	list-style:none;
+	padding:0px;
+	margin:0px;
+	padding-bottom:20px;
+}
+
+#months a {
+	/* color:#3E3E3E;
+	text-decoration:none; */
+	font-size:11px;
+	/* font-weight:bold; */
+}
+
+#months a:hover {
+	/* color:#3E3E3E;
+	text-decoration:underline; */
+	/* font-weight:bold; */
+}
+
+#months li {
+	float:left;
+	padding: 5px 5px 5px 5px;
+	border: 1px solid #c3d9ff; 
+	background-color: #FAFAFA;
+}
+
+
+.selected {
+	border-bottom: 0px;
+}
+
+#calendar table {
+}
+
+#calendar td {
+	
+}
+
+#calendar td a {
+	/* color:#000000;
+	text-decoration:none; */
+}
+
+.weekend {
+	background-color:#97b9db;
+	padding:5px 5px 0px 5px;
+}
+
+.weekday {
+	background-color:#a9cbed;
+	padding:5px 5px 0px 5px;
+}
+
+.today {
+	background-color:#17711E;
+	padding:5px 5px 0px 5px;
+	color:#fff;
+}
+
+.monthName {
+	color:#3E3E3E;
+	font-size:24px;
+}
+
+.monthName a {
+	color:#3E3E3E;
+	font-size:30px;
+	text-decoration:none;
+}
+
+.monthName a:hover {
+	color:#3E3E3E;
+	font-size:30px;
+	text-decoration:underline;
+}
+
+.dayCell :hover {
+	background-color:#507497;
+}
+
+.day a {
+	font-size:18px;
+}
+
+.jobs {
+	font-size:11px;
+	font-weight:normal;
+}
+
+#changeVisitDetails {
+	font-size:12px;
+	margin:0 auto;
+}
+

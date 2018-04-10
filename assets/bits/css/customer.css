@@ -1,0 +1,149 @@
+/* CSS Document */
+
+body {
+	margin: 0 auto;
+	width: 1024px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+	text-align:left;		
+}
+
+
+#logo {
+	height:100px;
+	width:100%;
+	background-color:#ccc;
+}
+
+#topNavigation {
+	float: left;
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+	background-color:#ccc;
+	width:100%;
+}
+
+#topNavigation li {
+	width:100px;
+	float: left;
+	text-align:left;
+	margin-right:5px;
+}
+
+#topNavigation li:hover {
+}
+
+.dropdown-panel {
+	position:absolute;
+	padding: 10px;
+	list-style-type:none;
+	margin:0px;
+	width:100px;
+	border: 1px solid #ccc;
+	background-color:#FFFFFF;
+	color:#333333;
+	border: 1px solid #333;
+	font-size:12px;
+	/*opacity: 0.8;
+	filter:Alpha(Opacity=80); */
+}
+
+.dropdown-panel li {
+	margin-bottom:5px;
+	background-color:#FFFFFF;
+}
+
+.dropdown-panel li a {
+	color:#333333;
+	text-decoration:none;
+}
+
+.dropdown-panel li a:hover {
+	color:#333333;
+	text-decoration:underline;
+}
+
+.dropdown-panel li:hover{
+	background-color:#fff;
+}
+
+#customer-panel {
+	display:none;
+}
+
+#contact-panel {
+	display:none;
+}
+
+a.dropdown-tab {
+	display:block;
+	width:100px;
+	text-decoration:none;
+	color:#fff;
+	text-align:center;
+	padding:5px;
+}
+
+.tab:hover {
+	background-color: #666;
+}
+
+a:hover.dropdown-tab  {
+	display:block;
+	text-decoration:none;
+}
+
+
+
+#mainContent {
+	clear: both;
+	border: 1px solid red;
+}
+
+#customerFieldSet {
+	border: 1px solid red;
+	width:500px;
+	margin: 0 auto;
+	padding:10px;
+}
+
+#customerFieldSet label {
+	display: block;
+	float:left;
+	margin-bottom:15px;
+	
+}
+
+#customerFieldSet input { 
+	background-color:#eee;
+}
+
+.customerDetails {
+	width: 200px;
+	display:block;
+	float:left;
+}
+
+#feedback {
+	width:715px;
+	border: 2px solid #17711E;
+	color:#000;
+	font-size:16px;
+	margin-bottom:20px;
+	background-color:#D5DFCD;
+	padding:15px;
+}
+
+#error {
+	width:715px;
+	border: 2px solid #A51717;
+	color:#A51717;
+	font-size:16px;
+	margin-bottom:20px;
+	background-color:#DFCDCF;
+	padding:15px;
+}
+

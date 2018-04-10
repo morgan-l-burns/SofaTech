@@ -1,0 +1,123 @@
+#topNavigationArea {
+	background-color:#cccac6;
+	background-image:url(/frontendImages/topBanners/aboutUsNew4.jpg);
+	background-repeat:no-repeat;
+	color:#fff;
+}
+
+#topNavigationArea #emailUs, #topNavigationArea #phoneUs  {
+	color:#844138;
+}
+
+#footer {
+	background-image:url(/frontendImages/homepage/bottomPageFade.jpg);
+	background-repeat:no-repeat; 
+}
+
+#bottomStrapLine a {
+	color:#444;
+	
+}
+
+#bottomStrapLine a:hover {
+	color:#000000;	
+}
+
+#dateDisplay {
+
+	color:#444;
+	
+}
+
+body {
+	color:#fff;
+}
+
+ul {
+	padding-left:15px;
+}
+
+#outterContainer {
+		height:100%;
+		width: 869px;
+		margin:0 auto;
+		/* border:1px solid black; */
+}
+
+#mainContent {
+	height: :100%;
+	width: 869px;
+	text-align:left;
+}
+
+.red {
+ color:#844138;
+}
+
+.message {
+	font-size:14px;
+}
+
+#mainContentInner {
+	position: relative;
+	top:27px;
+	left:27px;
+	height: auto;
+	width: 815px;
+	text-align:left;
+	overflow:auto;
+	/* border:1px solid red; */
+}
+
+#mainContentArea {
+	height:100%;
+	width: 869px;
+	/* border:1px solid yellow; */
+}
+
+
+
+#mainContent {
+	/*background-image:url(/frontendImages/homepage/mainContentGradient.jpg);
+	background-repeat: no-repeat;*/
+	/* background-color:#cdc4c4; */
+	background-color:#cccac6;
+	/* border:1px solid blue; */
+	color:#412f2e;
+	height:100%;
+}
+
+
+.clear{
+	clear:both;
+	margin-bottom:15px;
+}
+
+a {
+	color:#844138;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#844138;
+	text-decoration:underline;
+}
+
+#officeGirl {
+	float:right;
+	margin:0px 0px 10px 10px;
+}
+
+#leatherRepair {
+	float:right;
+	margin:0px 0px 10px 15px;
+}
+
+#van {
+	float:left;
+	margin:10px 10px 0px 0px;
+}
+
+ul li {
+	line-height:32px;
+}

@@ -1,0 +1,541 @@
+#outterContainer {
+		height:767px;
+		width: 869px;
+		margin:0 auto;
+}
+
+body {
+	text-align:center;
+	background-color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+#topNavigationArea {
+	position:relative;
+	height: 227px;
+	width: 869px;
+}
+
+/* #topNavigationTabs {
+	position:relative;
+	top:169px;
+	margin: 0px;
+	padding:0px;
+	width: 869px;
+	height:58px;
+	list-style:none;
+	border:1px solid red;
+} */
+#topNavigationTabs {
+	position:relative;
+	top:193px;
+	margin: 0px;
+	padding:0px;
+	width: 869px;
+	height:34px;
+	list-style:none;
+}
+
+#emailUs {
+	display:block;
+	position:absolute;
+	top:115px;
+	left:27px;
+	font-size:18px;
+	color:#433d3a;
+}
+
+#phoneUs {
+	font-size:18px;
+	display:block;
+	position:absolute;
+	top:90px;
+	left:27px;
+	color:#433d3a;
+}
+
+/* #homeTab {
+	width:146px;
+	height:58px;
+	float:left;
+}
+
+#homeTab a {
+	background-image:url(/frontendImages/buttons/homeButtonHover.jpg);
+	background-repeat:no-repeat;
+	height:58px;
+	margin-left:25px;
+	width:114px;
+	display: block;
+	
+}
+
+#homeTab a:hover {
+	background-image:url(/frontendImages/buttons/homeButton.jpg);
+	background-repeat:no-repeat;
+	height:58px;
+	margin-left:25px;
+	width:114px;
+	display: block;
+}
+
+#homeTab .selected {
+	background-image:url(/frontendImages/buttons/homeButton.jpg);
+	background-repeat:no-repeat;
+	height:58px;
+	margin-left:25px;
+	width:114px;
+	display: block;
+	
+}
+
+#contactTab {
+	width:191px;
+	height:58px;
+	float:left;
+}
+
+#contactTab a {
+	background-image:url(/frontendImages/buttons/contactUsButtonHover.jpg);
+	background-repeat:no-repeat;
+	height:58px;
+	width:184px;
+	display: block;
+}
+
+#contactTab a:hover {
+	background-image:url(/frontendImages/buttons/contactUsButton.jpg);
+	background-repeat:no-repeat;
+	height:58px;
+	width:184px;
+	display: block;
+}
+
+#contactTab .selected {
+	background-image:url(/frontendImages/buttons/contactUsButton.jpg);
+	background-repeat:no-repeat;
+	height:58px;
+	width:184px;
+	display: block;
+}
+
+#ourWorkTab {
+	width:158px;
+	height:58px;
+	float:left;
+}
+
+#ourWorkTab a {
+	background-image:url(/frontendImages/buttons/ourWorkButtonHover.jpg);
+	background-repeat:no-repeat;
+	height:58px;
+	width:152px;
+	display: block;
+}
+
+#ourWorkTab a:hover {
+	background-image:url(/frontendImages/buttons/ourWorkButton.jpg);
+	background-repeat:no-repeat;
+	height:58px;
+	width:152px;
+	display: block;
+}
+
+#ourWorkTab .selected {
+	background-image:url(/frontendImages/buttons/ourWorkButton.jpg);
+	background-repeat:no-repeat;
+	height:58px;
+	width:152px;
+	display: block;
+}
+
+#onlineSystem {
+	width:193px;
+	height:58px;
+	float:left;
+}
+
+#onlineSystem a {
+	background-image:url(/frontendImages/buttons/onlineSystemHover.jpg);
+	background-repeat:no-repeat;
+	height:58px;
+	width:185px;
+	display: block;
+}
+
+#onlineSystem a:hover {
+	background-image:url(/frontendImages/buttons/onlineSystem.jpg);
+	background-repeat:no-repeat;
+	height:58px;
+	width:185px;
+	display: block;
+}
+
+#onlineSystem .selected {
+	background-image:url(/frontendImages/buttons/onlineSystem.jpg);
+	background-repeat:no-repeat;
+	height:58px;
+	width:185px;
+	display: block;
+}
+
+#aboutUsTab {
+	width:154px;
+	height:58px;
+	float:left;
+}
+
+#aboutUsTab a {
+	background-image:url(/frontendImages/buttons/aboutUsButtonHover.jpg);
+	background-repeat:no-repeat;
+	height:58px;
+	width:146px;
+	display: block;
+}
+
+#aboutUsTab a:hover {
+	background-image:url(/frontendImages/buttons/aboutUsButton.jpg);
+	background-repeat:no-repeat;
+	height:58px;
+	width:146px;
+	display: block;
+}
+
+#aboutUsTab .selected {
+	background-image:url(/frontendImages/buttons/aboutUsButton.jpg);
+	background-repeat:no-repeat;
+	height:58px;
+	width:146px;
+	display: block;
+} */
+
+#homeTab {
+	width:104px;
+	height:58px;
+	float:left;
+}
+
+#homeTab a {
+	background-image:url(/frontendImages/buttons/newNavigation/homeNotSelected.jpg);
+	background-repeat:no-repeat;
+	height:58px;
+	margin-left:25px;
+	width:74px;
+	display: block;
+	
+}
+
+#homeTab a:hover {
+	background-image:url(/frontendImages/buttons/newNavigation/homeSelected.jpg);
+	background-repeat:no-repeat;
+	height:58px;
+	margin-left:25px;
+	width:74px;
+	display: block;
+}
+
+#homeTab .selected {
+	background-image:url(/frontendImages/buttons/newNavigation/homeSelected.jpg);
+	background-repeat:no-repeat;
+	height:58px;
+	margin-left:25px;
+	width:74px;
+	display: block;
+	
+}
+
+#contactTab {
+	width:133px;
+	height:58px;
+	float:left;
+}
+
+#contactTab a {
+	background-image:url(/frontendImages/buttons/newNavigation/contactUsNotSelected.jpg);
+	background-repeat:no-repeat;
+	height:58px;
+	width:128px;
+	display: block;
+}
+
+#contactTab a:hover {
+	background-image:url(/frontendImages/buttons/newNavigation/contactUsSelected.jpg);
+	background-repeat:no-repeat;
+	height:58px;
+	width:128px;
+	display: block;
+}
+
+#contactTab .selected {
+	background-image:url(/frontendImages/buttons/newNavigation/contactUsSelected.jpg);
+	background-repeat:no-repeat;
+	height:58px;
+	width:128px;
+	display: block;
+}
+
+#ourWorkTab {
+	width:118px;
+	height:58px;
+	float:left;
+}
+
+#ourWorkTab a {
+	background-image:url(/frontendImages/buttons/newNavigation/ourWorkNotSelected.jpg);
+	background-repeat:no-repeat;
+	height:58px;
+	width:113px;
+	display: block;
+}
+
+#ourWorkTab a:hover {
+	background-image:url(/frontendImages/buttons/newNavigation/OurWorkSelected.jpg);
+	background-repeat:no-repeat;
+	height:58px;
+	width:113px;
+	display: block;
+}
+
+#ourWorkTab .selected {
+	background-image:url(/frontendImages/buttons/newNavigation/OurWorkSelected.jpg);
+	background-repeat:no-repeat;
+	height:58px;
+	width:113px;
+	display: block;
+}
+
+#onlineSystem {
+	width:171px;
+	height:58px;
+	float:left;
+}
+
+#onlineSystem a {
+	background-image:url(/frontendImages/buttons/newNavigation/onlineSystemNotSelected.jpg);
+	background-repeat:no-repeat;
+	height:58px;
+	width:166px;
+	display: block;
+}
+
+#onlineSystem a:hover {
+	background-image:url(/frontendImages/buttons/newNavigation/onlineSystemSelected.jpg);
+	background-repeat:no-repeat;
+	height:58px;
+	width:166px;
+	display: block;
+}
+
+#onlineSystem .selected {
+	background-image:url(/frontendImages/buttons/newNavigation/onlineSystemSelected.jpg);
+	background-repeat:no-repeat;
+	height:58px;
+	width:166px;
+	display: block;
+}
+
+#aboutUsTab {
+	width:113px;
+	height:58px;
+	float:left;
+}
+
+#aboutUsTab a {
+	background-image:url(/frontendImages/buttons/newNavigation/aboutUsNotSelected.jpg);
+	background-repeat:no-repeat;
+	height:58px;
+	width:113px;
+	display: block;
+}
+
+#aboutUsTab a:hover {
+	background-image:url(/frontendImages/buttons/newNavigation/aboutUsSelected.jpg);
+	background-repeat:no-repeat;
+	height:58px;
+	width:113px;
+	display: block;
+}
+
+#aboutUsTab .selected {
+	background-image:url(/frontendImages/buttons/newNavigation/aboutUsSelected.jpg);
+	background-repeat:no-repeat;
+	height:58px;
+	width:113px;
+	display: block;
+}
+
+#mainContentArea {
+	height: 525px;
+	width: 869px;
+}
+
+#mainContent {
+	height: 445px;
+	width: 869px;
+	text-align:left;
+}
+
+h1 {
+	font-size:24px;
+	margin:0px;
+}
+
+h2 {
+	font-size:16px;
+	margin:0px;
+	margin-bottom:5px;
+}
+
+h3 {
+	font-size:14px;
+	margin:0px;
+	margin-bottom:5px;
+}
+
+#mainContentInner {
+	position: relative;
+	top:27px;
+	left:27px;
+	height: 350px;
+	width: 815px;
+	text-align:left;
+	overflow:auto;
+}
+
+#topStrapLine {
+	position:relative;
+	height: 40px;
+	width: 869px;
+}
+
+#dateDisplay {
+	display:block;
+	position:absolute;
+	width:150px;
+	color:#bbb;
+	top:10px;
+	left:695px;
+	text-align:right;
+}
+
+.blackLeather {
+	background-image:url(/frontendImages/homepage/blackTopLeatherStrapLine.jpg);
+	background-repeat:no-repeat;
+}
+
+.contactUsLeather {
+	background-image:url(/frontendImages/contactUs/leatherStrapLine.jpg);
+	background-repeat:no-repeat;
+}
+
+.ourWorkLeather {
+	background-image:url(/frontendImages/ourWork/leatherStrapLine.jpg);
+	background-repeat:no-repeat;
+}
+
+.careGuideLeather {
+	background-image:url(/frontendImages/careGuide/leatherStrapLine.jpg);
+	background-repeat:no-repeat;
+}
+
+.aboutUsLeather {
+	background-image:url(/frontendImages/aboutUs/leatherStrapLine.jpg);
+	background-repeat:no-repeat;
+}
+
+#bottomStrapLine {
+	position:relative;
+	left:0px;
+	top:0px;
+	height: 40px;
+	width: 869px;
+}
+
+#bottomStrapLine a {
+	display:block;
+	position: absolute;
+	left:750px;
+	top:12px;
+	color:#bbb;
+	text-decoration:none;
+	width:100px;
+}
+
+#bottomStrapLine a:hover {
+	display:block;
+	position: absolute;
+	left:750px;
+	top:12px;
+	color:#fff;
+	text-decoration:underline;
+	width:100px;
+}
+
+.scroll{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	position:relative;
+	left:790px;
+	top:50px;
+	height:21px;
+}
+.scroll li{
+	display:block;
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	width:21px;
+	height:15px;
+	float:left;
+	margin-right:5px;
+}
+.scroll li a{
+	position:absolute;
+	width:21px;
+	height:15px;
+	text-indent:-20000px;
+	margin-right:5px;
+}
+/*.scroll li.up{
+	background-image:url(/frontendImages/buttons/arrows/arrowUp.jpg);
+	background-repeat:no-repeat;
+	
+} */
+.scroll li.up a{
+	background-image:url(/frontendImages/buttons/arrows/arrowUp.jpg);
+	background-repeat:no-repeat;
+	
+}
+.scroll li.up a:hover{
+	background-image:url(/frontendImages/buttons/arrows/arrowUpDark.jpg);
+	background-repeat:no-repeat;
+}
+/* .scroll li.down{
+	background-image:url(/frontendImages/buttons/arrows/arrowDown.jpg);
+	background-repeat:no-repeat;
+} */
+.scroll li.down a{
+	background-image:url(/frontendImages/buttons/arrows/arrowDown.jpg);
+	background-repeat:no-repeat;
+}
+
+.scroll li.down a:hover{
+	background-image:url(/frontendImages/buttons/arrows/arrowDownDark.jpg);
+	background-repeat:no-repeat;
+}
+
+#footer {
+	width: 869px;
+	height: 15px;
+}
+
+.italic {
+	font-style:italic;
+}
+
+.justify {
+	 text-align: justify;
+}
+

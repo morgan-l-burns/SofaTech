@@ -1,0 +1,869 @@
+/* redefine tags */
+body {
+	margin:0;
+	padding:0;
+	/* align for IE */
+	text-align:left;
+}
+body.red {
+	background:#A51717 url(watermarkRed1.gif) right top no-repeat;
+}
+body.green {
+	background:#17711E url(watermarkGreen1.gif) right top no-repeat;
+}
+body.blue {
+	background:#0B0B76 url(../images/watermarkBlue1.gif) right top no-repeat;
+}
+body.black {
+	background:#000 url(../images/watermarkBlack1.gif) right top no-repeat;
+}
+img {
+	margin:0;
+	padding:0;
+	border:0;
+}
+hr {
+	display:none;
+	margin:0;
+	padding:0;
+	height:0;
+}
+p {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:0.7em;
+	color:#000;
+	text-align:left;
+	margin:0;
+	padding:0;
+}
+p a {
+	color:#000;
+}
+p a:hover {
+	color:#17711E;
+}
+h2 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:0.8em;
+	font-weight:bold;
+	color:#000;
+	text-align:left;
+	margin:0 0 3px 0;
+	padding:0;
+}
+
+/* common styles */
+/* div for forcing content down after floats */
+div.hr {
+	width:100%;
+	height:0;
+	background:transparent;
+	margin:0;
+	padding:0;
+	border:0;
+	clear:both;
+}
+span.hide {
+	display:none;
+}
+span.bold {
+	font-weight:bold;
+}
+p.paginate {
+	margin:20px 0 0 0;
+	text-align:center;
+	font-weight:bold;
+	font-size:0.9em;
+}
+ol {
+	margin:0;
+	padding:0;
+	list-style-position:inside;
+}
+ol li {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:0.7em;
+	color:#000;
+	margin:0 0 20px 0;
+	padding:0;
+}
+ol li a {
+	color:#000;
+}
+ol li a:hover {
+	color:#17711E;
+}
+
+/* containers */
+#mainContainerRed {
+	/* align for proper browsers */
+	margin:0 auto 0 0;
+	padding:0;
+	width:770px;
+	background:#fff;
+	border-right:1px solid #000;
+}
+
+/* footer styles */
+#footer {
+	width:770px;
+	margin:0;
+	padding:0;
+	border-bottom:1px solid #000;
+}
+#footer p.footerText {
+	display:block;
+	width:660px;
+	margin:0;
+	padding:36px 0 14px 10px;
+	float:left;
+	
+	color:#A51717;
+}
+#footer p.footerText a {
+	margin:0 0 0 10px;
+	color:#000;
+	text-decoration:none;
+}
+#footer p.footerText a:hover {
+	color:#818181;
+	text-decoration:underline;
+}
+#footer p.footerLogo {
+	display:block;
+	width:92px;
+	margin:0;
+	padding:13px 8px 12px 0;
+	float:right;
+	
+	text-align:right;
+}
+#footer .footerBlock {
+	clear:both;
+	height:40px;
+	background:#000;
+}
+
+/* status bar styles */
+#statusBar {
+	width:770px;
+	margin:0;
+	padding:0;
+	background:#000;
+	border-top:1px solid #fff;
+}
+#statusBar p {
+	color:#fff;
+	padding:12px 10px;
+}
+#statusBar p a {
+	color:#fff;
+	font-weight:bold;
+	text-decoration:underline;
+}
+#statusBar p a:hover {
+	color:#B2B2B2;
+}
+#statusBar input {
+	margin:0;
+	padding:0;
+	font:1.1em Arial, Helvetica, sans-serif;
+	width:120px;
+}
+#statusBar input.submit {
+	margin:0 15px 0 5px;
+	width:50px;
+}
+
+/* bread crumb styles */
+#breadCrumbs {
+	width:730px;
+	margin:20px 10px 0 10px;
+	padding:4px 10px 4px 10px;
+	text-align:left;
+	background:#D9D9D9;
+}
+#breadCrumbs ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#breadCrumbs ul li {
+	margin:0;
+	padding:0;
+	display:inline;
+	font:0.7em Verdana, Arial, Helvetica, sans-serif;
+}
+#breadCrumbs ul li a {
+	margin:0;
+	padding:0;
+	font:Verdana, Arial, Helvetica, sans-serif;
+	color:#A51717;
+	text-decoration:none;
+}
+#breadCrumbs ul li a:hover {
+	color:#17711E;
+}
+
+/* banner styles */
+#bannerSub {
+	position:relative;
+	width:770px;
+	height:200px;
+	margin:0;
+	padding:0;
+}
+h1.s1 {
+	display:block;
+	width:770px;
+	height:200px;
+	margin:0;
+	padding:0;
+	background:#000 url(sofaAdmin.jpg) top left no-repeat;
+}
+
+/* main navigation styles */
+#mainNav {
+	z-index:2;
+	position:absolute;
+	bottom:0;
+	vertical-align:bottom;
+	width:770px;
+	margin:0;
+	padding:0;
+}
+#mainNav ul {
+	margin:0 10px 0 0;
+	padding:0;
+	list-style:none;
+}
+#mainNav ul li {
+	margin:0 0 0 4px;
+	padding:0;
+	float:right;
+}
+#mainNav ul li a {
+	display:block;
+	margin:0;
+	padding:15px 20px 10px 20px;
+	border:1px solid #999898;
+	background:#A3A2A2 url(tabBGdark.gif) left top repeat-y;
+	
+	font-family:Arial, Helvetica, sans-serif;	
+	font-size:0.8em;
+	color:#555;
+	font-weight:bold;
+	text-decoration:none;
+}
+#mainNav ul li a:hover {
+	border:1px solid #fff;
+	background:#F8F8F8 url(tabBGlight.gif) left top repeat-y;
+	color:#000;
+}
+#mainNav ul li a.selected {
+	display:block;
+	margin:0;
+	padding:15px 20px 10px 20px;
+	border:1px solid #fff;
+	background:#F8F8F8 url(tabBGlight.gif) left top repeat-y;
+
+	font-family:Arial, Helvetica, sans-serif;	
+	font-size:0.8em;
+	color:#000;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+/* sub nav styles */
+#subNav {
+	width:770px;
+	margin:0;
+	padding:0;
+	background:transparent url(subNavBG.gif) left bottom repeat-x;
+	border-bottom:1px solid #969696;
+}
+#subNav ul {
+	width:750px;
+	margin:10px 0 0 10px;
+	padding:0;
+	list-style:none;
+}
+#subNav ul li {
+	margin:0 2px 0 0;
+	padding:0;
+	float:left;
+}
+#subNav ul li a {
+	display:block;
+	margin:0;
+	padding:7px 20px 6px 20px;
+	border-top:1px solid #969696;
+	border-left:1px solid #969696;
+	border-right:1px solid #969696;
+	background:#fff url(subNavTabBG.gif) left top repeat-y;
+	
+	font-family:Arial, Helvetica, sans-serif;	
+	font-size:0.7em;
+	color:#000;
+	text-decoration:none;
+}
+#subNav ul li a:hover {
+	color:#fff;
+	background:#A51717;
+}
+
+/* main content and column styles */
+#mainContentLeft {
+	width:540px;
+	margin:0 0 0 10px;
+	padding:20px 0 0 0;
+	float:left;
+	display:inline;
+}
+#mainContentRight {
+	width:540px;
+	margin:0 10px 0 0;
+	padding:20px 0 0 0;
+	float:right;
+	display:inline;
+}
+#colRight {
+	width:200px;
+	margin:0 10px 0 0;
+	padding:20px 0 0 0;
+	float:right;
+	display:inline;
+}
+#colLeft {
+	width:200px;
+	margin:0 0 0 10px;
+	padding:20px 0 0 0;
+	float:left;
+	display:inline;
+}
+#mainContentCentre {
+	width:330px;
+	margin:0 10px 0 10px;
+	padding:20px 0 0 0;
+	float:left;
+	display:inline;
+}
+
+/* our range list styles */
+#ourRangeList {
+	width:200px;
+	margin:0;
+	padding:0;
+	border-top:2px solid #17711E;
+}
+#ourRangeList ul {
+	width:200px;
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#ourRangeList ul li {
+	margin:0;
+	/* correct margin sillyness in IE */
+	_margin-bottom:-1px;
+	padding:0;
+}
+#ourRangeList ul li a {
+	width:180px;
+	display:block;
+	margin:0;
+	padding:7px 10px 6px 10px;
+	border-bottom:1px dotted #17711E;
+	
+	font:0.8em Georgia, "Times New Roman", Times, serif;
+	color:#A51717;
+	text-decoration:none;
+}
+#ourRangeList ul li a:hover {
+	color:#fff;
+	background:#17711E;
+}
+
+/* product results styles */
+#prodResults {
+	width:330px;
+	margin:0;
+	padding:0;
+	border-top:2px solid #17711E;
+}
+#prodResults2 {
+	width:330px;
+	margin:0;
+	padding:0;
+	border-top:2px solid #17711E;
+}
+.prodItem {
+	width:330px;
+	margin:10px 0 0 0;
+	padding:0 0 10px 0;
+	clear:both;
+	border-bottom:1px dotted #17711E;
+}
+.prodItem img {
+	float:left;
+	border:1px solid #000;
+	margin:0 10px 0 0;
+}
+.prodItem h3, .prodItem h3 a {
+	font:0.9em Georgia, "Times New Roman", Times, serif;
+	color:#A51717;
+	text-decoration:none;
+	margin:0;
+}
+.prodItem h3 a:hover {
+	text-decoration:underline;
+}
+.prodItem p {
+	clear:both;
+	margin:10px 0 0 0;
+	padding:0;
+}
+.prodItem p a {
+	color:#A51717;
+	font-weight:bold;
+}
+.prodItem p a:hover {
+	color:#000;
+}
+.prodItem p.price {
+	clear:none;
+	margin:0;
+	padding:0;
+	
+	line-height:1.2em;
+}
+.prodItem p.price span {
+	font-style:italic;
+	color:#646464;
+}
+p.price span.listTitle {
+	font-style:normal;
+	color:#646464;
+}
+.prodItem p.price span.listPrice {
+	font-style:normal;
+	color:#646464;
+	text-decoration:line-through;
+}
+.prodItem p.buttonAdd {
+	float:right;
+	clear:none;
+	margin:0;
+	padding:0;
+}
+#prodFilter {
+	width:310px;
+	margin:10px 0;
+	padding:10px;
+	background:#D9D9D9;
+}
+#prodFilter h3 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:0.7em;
+	font-weight:bold;
+	color:#000;
+	margin:0 0 6px 0;
+	padding:0;
+}
+#prodFilter select, #prodFilter select optgroup, #prodFilter select option {
+	font-style:normal;
+	font-size:1em;
+	width:110px;
+}
+
+/* product detail styles */
+#prodDetails {
+	width:540px;
+	margin:0;
+	padding:0;
+	border-top:2px solid #17711E;
+}
+#prodDetails img {
+	float:right;
+	border:1px solid #000;
+	margin:15px 0 15px 15px;
+}
+#prodDetails h3 {
+	font:1.4em Georgia, "Times New Roman", Times, serif;
+	color:#A51717;
+	margin:15px 0 30px 0;
+}
+#prodDetails p {
+	margin-bottom:20px;
+}
+#prodDetails table {
+	width:330px;
+	margin:0 0 20px 0;
+	padding:0;
+	border-top:1px dotted #A51717;
+}
+#prodDetails table tr {
+	width:330px;
+	margin:0;
+	padding:0;
+}
+#prodDetails table tr th {
+	width:120px;
+	font:0.7em Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#000;
+	line-height:1em;
+	text-align:right;
+	margin:0;
+	padding:8px 0 7px 0;
+	border-bottom:1px dotted #A51717;
+}
+#prodDetails table tr td {
+	width:295px;
+	font:0.7em Verdana, Arial, Helvetica, sans-serif;
+	color:#000;
+	line-height:1em;
+	text-align:left;
+	margin:0;
+	padding:8px 0 7px 15px;
+	border-bottom:1px dotted #A51717;
+}
+#prodDetails p.price {
+	margin:0 0 30px 0;
+	padding:0;
+	
+	line-height:1.2em;
+}
+#prodDetails p.price span {
+	font-style:italic;
+	color:#646464;
+}
+#prodDetails p.price span.listTitle {
+	font-style:normal;
+	color:#646464;
+}
+#prodDetails p.price span.listPrice {
+	font-style:normal;
+	color:#646464;
+	text-decoration:line-through;
+}
+#prodDetails p.buttonAdd {
+	float:right;
+	margin:10px 0 10px 10px;
+	/* correct for the crap that is IE */
+	_margin:-5px 0 10px 10px;
+}
+#prodDetails #productFooter {
+	width:330px;
+	margin:0;
+	padding:5px 0 0 0;
+}
+#prodDetails #productFooter input.buttonAdd {
+	margin:10px 0 10px 10px;
+	/* correct for the crap that is IE */
+	_margin:-5px 0 10px 10px;
+}
+#prodDetails a.buttonStd {
+	margin:0;
+	padding:5px 15px 4px 15px;
+	background:#CECECF url(buttonBGstd.gif) left top repeat-x;
+	border:1px solid #000;
+	
+	font:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#000;
+	text-decoration:none;
+}
+
+/* basket summary styles */
+#shoppingBasket {
+	width:180px;
+	margin:0 0 20px 0;
+	padding:10px 10px 0 10px;
+	border-top:2px solid #A51717;
+	border-bottom:2px solid #A51717;
+	background:#D9D9D9 url(../images/basket/basketBG.gif) left top no-repeat;
+}
+#shoppingBasket p {
+	color:#A51717;
+	margin-bottom:10px;
+}
+#shoppingBasket p a {
+	color:#A51717;
+	font-weight:bold;
+}
+#shoppingBasket p a:hover {
+	color:#000;
+	text-decoration:underline;
+}
+
+/* shopping basket section styles */
+#shoppingBasketMain {
+	width:540px;
+	margin:0;
+	padding:10px 0 0 0;
+	border-top:2px solid #A51717;
+}
+#shoppingBasketMain table.basket, #checkoutMain table.basket {
+	width:540px;
+	margin:0 0 10px 0;
+	padding:0;
+	border-bottom:1px solid #000;
+}
+#shoppingBasketMain table.basket tr th, #checkoutMain table.basket tr th {
+	padding:0 0 5px 0;
+	font:0.7em Verdana, Arial, Helvetica, sans-serif;
+	color:#000;
+	text-align:left;
+	border-bottom:1px solid #000;
+}
+#shoppingBasketMain table.basket tr td, #checkoutMain table.basket tr td {
+	background:#D9D9D9;
+	padding:4px 2px 0 2px;
+	text-align:center;
+	font:0.8em Arial, Helvetica, sans-serif;
+	color:#000;
+}
+#shoppingBasketMain table.basket tr td.item, #checkoutMain table.basket tr td.item {
+	text-align:left;
+}
+#shoppingBasketMain table.basket tr td.item h3, #shoppingBasketMain table.basket tr td.item h3 a, #checkoutMain table.basket tr td.item h3, #checkoutMain table.basket tr td.item h3 a {
+	font:1em Georgia, "Times New Roman", Times, serif;
+	color:#A51717;
+	text-decoration:none;
+	margin:0;
+}
+#shoppingBasketMain table.basket tr td.item h3 a:hover, #checkoutMain table.basket tr td.item h3 a:hover {
+	text-decoration:underline;
+}
+#shoppingBasketMain table.basket tr td a, #checkoutMain table.basket tr td a {
+	color:#000;
+	text-decoration:none;
+}
+#shoppingBasketMain table.basket tr td a:hover, #checkoutMain table.basket tr td a:hover {
+	text-decoration:underline;
+}
+#shoppingBasketMain p.total, #checkoutMain p.total {
+	font:bold 1em Georgia, "Times New Roman", Times, serif;
+	color:#000;
+	text-align:right;
+}
+#shoppingBasketMain p.total span, #checkoutMain p.total span {
+	font:0.8em Arial, Helvetica, sans-serif;
+}
+#shoppingBasketMain p.buttonRow {
+	margin:10px 0;
+}
+#shoppingBasketMain p.buttonRow a {
+	float:left;
+	margin:0 10px 0 0;
+}
+#shoppingBasketMain p.buttonRow a.checkout {
+	float:right;
+	margin:0;
+}
+
+/* similar product styles */
+#similarProds {
+	width:200px;
+	margin:0 0 20px 0;
+	padding:0;
+	border-top:2px solid #17711E;
+}
+#similarProds ul {
+	width:200px;
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#similarProds ul li {
+	margin:0;
+	/* correct margin sillyness in IE */
+	_margin-bottom:-1px;
+	padding:0;
+}
+#similarProds ul li a {
+	width:180px;
+	display:block;
+	margin:0;
+	padding:7px 10px 6px 10px;
+	border-bottom:1px dotted #17711E;
+	
+	font:0.7em Georgia, "Times New Roman", Times, serif;
+	color:#A51717;
+	text-decoration:none;
+}
+#similarProds ul li a:hover {
+	color:#fff;
+	background:#17711E;
+}
+
+/* find wine styles */
+#findWine {
+	width:180px;
+	margin:0 0 20px 0;
+	padding:10px 10px 0 10px;
+	border-top:2px solid #0B0B76;
+	border-bottom:2px solid #0B0B76;
+	background:#D9D9D9 url(../images/findWine/findWineBG.gif) left top no-repeat;
+}
+#findWine table {
+	width:180px;
+	margin:0;
+	padding:0;
+}
+#findWine table th, #findWine table td {
+	width:180px;
+	margin:0;
+	padding:0 0 10px 0;
+	font:0.7em Verdana, Arial, Helvetica, sans-serif;
+	color:#0B0B76;
+}
+#findWine table td input.field, #findWine table td select {
+	width:170px;
+	font:Arial, Helvetica, sans-serif;
+	color:#000;
+	margin:0;
+	padding:0;
+}
+#findWine p {
+	color:#0B0B76;
+	margin-bottom:10px;
+}
+#findWine p a {
+	color:#0B0B76;
+	font-weight:bold;
+}
+#findWine p a:hover {
+	color:#000;
+	text-decoration:underline;
+}
+
+/* find wine main section styles */
+#findWineMain {
+	width:540px;
+	margin:0;
+	padding:0;
+	border-top:2px solid #0B0B76;
+}
+#findWineMain table {
+	width:540px;
+	margin:10px 0 0 0;
+	padding:0;
+}
+#findWineMain table.full {
+	margin:20px 0 0 0;
+}
+#findWineMain table tr {
+	margin:0;
+	padding:0;
+}
+#findWineMain table tr th {
+	width:262px;
+	padding:4px;
+	background:#D9D9D9;
+	font:bold 0.7em Arial, Helvetica, sans-serif;
+	color:#000;
+}
+#findWineMain table tr td {
+	width:262px;
+	padding:10px 4px;
+	background:#EDEDED;
+}
+#findWineMain table tr td select, #findWineMain table tr td input#searchTerm {
+	width:98%;
+	font:0.8em Arial, Helvetica, sans-serif;
+}
+#findWineMain table.full tr th, #findWineMain table.full tr td {
+	width:532px;
+}
+#findWineMain p {
+	margin:10px 0;
+}
+#findWineMain p.right {
+	text-align:right;
+	margin:20px 0;
+}
+
+/* general content styles */
+#genContent {
+	width:540px;
+	margin:0;
+	padding:0;
+	border-top:2px solid #0B0B76;
+}
+#genContent img {
+	float:right;
+	border:1px solid #000;
+	margin:15px 0 15px 15px;
+}
+#genContent h3 {
+	font:1.4em Georgia, "Times New Roman", Times, serif;
+	color:#A51717;
+	margin:15px 0 30px 0;
+}
+#genContent p {
+	margin-bottom:20px;
+}
+
+/* checkout section styles */
+#checkoutMain {
+	width:540px;
+	margin:0;
+	padding:10px 0 0 0;
+	border-top:2px solid #A51717;
+}
+#checkoutMain h3 {
+	font:1.4em Georgia, "Times New Roman", Times, serif;
+	color:#A51717;
+	margin:15px 0 15px 0;
+}
+#checkoutMain p {
+	margin-bottom:15px;
+}
+#checkoutMain table.checkout {
+	width:540px;
+	margin:0 0 10px 0;
+	padding:0;
+	border-bottom:1px solid #000;
+}
+#checkoutMain table.checkout tr th {
+	width:30%;
+	background:#D9D9D9;
+	padding:4px;
+	font:0.7em Verdana, Arial, Helvetica, sans-serif;
+	color:#000;
+	text-align:left;
+}
+#checkoutMain table.checkout tr td {
+	background:#D9D9D9;
+	padding:4px 2px 4px 2px;
+	text-align:left;
+	font:0.8em Arial, Helvetica, sans-serif;
+	color:#000;
+}
+#checkoutMain p.buttonRow {
+	margin:10px 0;
+}
+#checkoutMain p.buttonRow input {
+	float:right;
+}
+#checkoutMain table.checkout tr td a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:0.9em;
+	color:#000;
+	text-align:left;
+	margin:0;
+	padding:0;
+}
+#checkoutMain table.checkout tr td a:hover {
+	color:#17711E;
+}
+#checkoutProgress {
+	width:200px;
+	margin:0 0 20px 0;
+	padding:20px 0;
+	border-top:2px solid #0B0B76;
+	border-bottom:2px solid #0B0B76;
+	background:#D9D9D9;
+}

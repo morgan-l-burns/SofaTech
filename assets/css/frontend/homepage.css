@@ -1,0 +1,134 @@
+#topNavigationArea {
+	background-color:#c4c4c4;
+	/* background-image:url(/frontendImages/topBanners/homepage.jpg);  */
+	background-image:url(/frontendImages/topBanners/sofaRelax.jpg); 
+	/* background-image:url(/frontendImages/homepage/testHeader.jpg); */
+	background-repeat:no-repeat;
+}
+
+#emailUs {
+	color:#bbb;
+}
+
+#phoneUs {
+	color:#bbb;
+}
+
+#footer {
+	background-image:url(/frontendImages/homepage/bottomPageFade.jpg);
+	background-repeat:no-repeat;
+}
+
+
+
+#outterContainer {
+		height:100%;
+		width: 869px;
+		margin:0 auto;
+		/* border:1px solid black; */
+}
+
+#mainContent {
+	height: :100%;
+	width: 869px;
+	text-align:left;
+	background-color:#c4c4c4;
+	height:100%;
+}
+
+
+#mainContentInner {
+	position: relative;
+	top:27px;
+	left:27px;
+	height: auto;
+	width: 815px;
+	text-align:left;
+	overflow:auto;
+	color:#413c36;
+	/* border:1px solid red; */
+}
+
+#mainContentArea {
+	height:100%;
+	width: 869px;
+	/* border:1px solid yellow; */
+}
+
+
+#flashMovie {
+	width:367px;
+	height:275px;
+	float:left;
+	margin-right:15px;
+	margin-bottom:10px;
+}
+
+a {
+	color: #823e35;
+	text-decoration:none;
+}
+
+a:hover {
+	color: #823e35;
+	text-decoration:underline;
+}
+
+.red {
+ color:#844138;
+}
+
+#whyChooseUsList {
+	margin:0px;
+	padding:0px 0px 0px 15px;
+	display: block;
+}
+
+#whyChooseUsList li {
+	padding-bottom:5px;
+}
+
+.clear {
+	clear: both;
+}
+
+#homepageHeading {
+	margin-bottom:10px;
+	font-size:24px;
+}
+
+#whyChooseUsHeader {
+	height:20px;
+	margin:0px;
+	padding-top:10px;
+	padding-bottom:5px;
+}
+
+
+#ethos {
+	display:block;
+	margin-top:10px;
+	font-size:20px;
+}
+
+
+
+#relax {
+	float:right;
+	margin:0px 0px 10px 10px;
+}
+
+ul li {
+	line-height:20px;
+}
+
+#justify {
+	 text-align: justify;
+}
+
+
+
+
+
+
+

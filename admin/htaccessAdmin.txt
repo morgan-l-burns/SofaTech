@@ -1,0 +1,9 @@
+AuthType Basic
+AuthName "Access for /sofa-tech"
+AuthUserFile /kunden/homepages/41/d249609756/htpasswd
+require user sofa-tech
+ErrorDocument 404 /admin/index.php
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*) /admin/index.php

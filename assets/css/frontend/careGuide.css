@@ -1,0 +1,123 @@
+#topNavigationArea {
+	background-color:#ece5df;
+	/*background-image:url(/frontendImages/topBanners/onlineSystem.jpg);
+	background-image:url(/frontendImages/topBanners/sofaRelax.jpg); */
+	background-image:url(/frontendImages/topBanners/onlineSystemWoodFinish.jpg);
+	background-repeat:no-repeat;
+}
+
+#topNavigationArea #emailUs, #topNavigationArea #phoneUs  {
+	color:#ccc;
+}
+
+#footer {
+	background-image:url(/frontendImages/homepage/bottomPageFade.jpg);
+	background-repeat:no-repeat;
+}
+
+#mainContent {
+	/*background-image:url(/frontendImages/homepage/mainContentGradient.jpg);
+	background-repeat: no-repeat;*/
+	background-color:#ece5df;
+}
+
+body {
+	color:#5d5650;
+}
+
+ul {
+	padding-left:15px;
+}
+
+#outterContainer {
+		height:100%;
+		width: 869px;
+		margin:0 auto;
+		/* border:1px solid black; */
+}
+
+#mainContent {
+	height: :100%;
+	width: 869px;
+	text-align:left;
+}
+
+.red {
+ color:#844138;
+}
+
+.message {
+	font-size:14px;
+}
+
+#mainContentInner {
+	position: relative;
+	top:27px;
+	left:27px;
+	height: auto;
+	width: 815px;
+	text-align:left;
+	overflow:auto;
+	/* border:1px solid red; */
+}
+
+#mainContentArea {
+	height:100%;
+	width: 869px;
+	/* border:1px solid yellow; */
+}
+
+
+
+#mainContent {
+	/*background-image:url(/frontendImages/homepage/mainContentGradient.jpg);
+	background-repeat: no-repeat;*/
+	/* background-color:#cdc4c4; */
+	background-color:#cccac6;
+	background-color:#c9af98;
+	/* border:1px solid blue; */
+	color:#412f2e;
+	height:100%;
+}
+
+
+.clear{
+	clear:both;
+	margin-bottom:15px;
+}
+
+a {
+	color:#ccc;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#ccc;
+	text-decoration:underline;
+}
+
+#onlineImage1 {
+	float:right;
+	margin:0px 0px 10px 10px;
+}
+
+#onlineImage2 {
+	float:left;
+	margin:0px 10px 0px 0px;
+}
+
+#onlineImage3 {
+	float:right;
+	margin:0px 0px 30px 10px;
+}
+
+#numberList {
+	margin-top:20px;
+	list-style-type:decimal;
+	float:left;
+	padding-left:28px;
+}
+
+ul li {
+	line-height:20px;
+}
